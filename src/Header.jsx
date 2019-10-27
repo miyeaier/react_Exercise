@@ -1,12 +1,15 @@
 import React from "react"
+import { NavLink,Link }from 'react-router-dom';
 
 const Header = () => {
   return (
     <nav className='ui fixed inverted menu'>
       <div className="ui container">
-        <h3 className="header item">
-         BrainS svamp
-        </h3>
+      <Link className="header item" to='/'>Brycology</Link>
+        <div className="right menu">
+          <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/about'>About Me</NavLink>
+          <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/projects'>Svamp</NavLink>
+        </div> 
       </div>
     </nav>
   )
