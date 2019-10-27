@@ -2,8 +2,12 @@ import React from "react"
 
 const Header = () => {
   return (
-    <nav>
-    <h1>BrainsSvamp</h1>
+    <nav className='ui fixed inverted menu'>
+      <div className="ui container">
+        <h3 className="header item">
+         BrainS svamp
+        </h3>
+      </div>
     </nav>
   )
 }
