@@ -2,8 +2,12 @@ import React from "react"
 
 const Hello = () => {
   return (
-      <div> Hello World</div>  
+    <div className="ui main container">
+      <h1>
+    
+      </h1>
+
+    </div>
   )
 }
-
 export default Hello

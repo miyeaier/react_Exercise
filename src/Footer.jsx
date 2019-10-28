@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="ui container">
-        <p>Made with MiyesierKaerman {React.version}</p>
+        <p>Made With MiyesierKaerman </p>
       </div>
     </footer>
   )
