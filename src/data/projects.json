@@ -4,6 +4,7 @@
     "name": " Chicken of the woods",
     "image": "https://github.com/miyeaier/react-portfolio/blob/master/Img/20191027_212613.jpg?raw=true",
     "description": "jdiwoq!"
+
   },
   {
     "id": 2,
@@ -34,5 +35,6 @@
     "name": "Shaggy mane",
     "image": "https://github.com/miyeaier/react-portfolio/blob/master/Img/PicsArt_09-17-07.51.17.jpg?raw=true",
     "description": "rtwtaz."
+    
   }
 ]

@@ -1,6 +1,7 @@
 {
   "name": "react-exercise",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,8 +17,6 @@
     "url": "https://github.com/miyeaier/react_Exercise/issues"
   },
   "homepage": "https://github.com/miyeaier/react_Exercise#readme",
-  "keywords": [],
-  "description": "",
   "dependencies": {
     "axios": "^0.19.0",
     "react": "^16.11.0",

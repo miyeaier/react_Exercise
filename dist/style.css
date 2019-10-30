@@ -1,5 +1,4 @@
-
-     footer 
+footer 
      {
        position: fixed;
        bottom: 0;
@@ -12,35 +11,64 @@
        margin-bottom: 0;
        text-align: center;
      }
-
-     h1
-      {
-        text-align: center;
-        font-size :45px;
+    
+     h1 {
+        text-align:center;
+        font-size :50px;
         font-family: "SimHei";
-        font-style: italic;
         font-weight: bold;
-        line-height:5;
-        color:#F2F3F4;
-        
+        line-height:3;
+        color:#E5E7E9;
+   
       }
-  
+
+      h2{
+        text-align:center;
+        font-size :35px;
+        font-family: "SimHei";
+        font-weight: bold;
+        line-height:3;
+        color:#E5E7E9;
+   
+      }
+
+      h3 {
+        text-align:center;
+        font-size :35px;
+        font-family: "SimHei";
+        font-weight: bold;
+        line-height:1;
+        color:#E5E7E9;
+
+      }
+
+      p {
+        text-align: top;
+        font-size :15px;
+        Font-Family: 'Lato', Sans-Serif;
+        font-style: italic;
+        font-weight:smil;
+        line-height:1;
+       color:gainsboro;
+   } 
+        
       .main.container {
         margin-top: 4em;
       }
       body  {background-image: URL(
         
-       
-        https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+        https://images.unsplash.com/photo-1507405199517-bb8ca08327e7?ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80
+        );
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
      }
+     
+    
+    
      div.ui.grid {
       padding-top: 50px;
       padding-right: 0px;
       padding-bottom: 50px;
       padding-left: 0px;
     }
-  
-  

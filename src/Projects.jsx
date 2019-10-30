@@ -21,14 +21,18 @@ import ProjectCard from "./ProjectCard"
             return (
               <div key={project.id}>
                 <ProjectCard project={project} />
+                
               </div>
             )
           })
         }
 
         return (
+        
           <div className="ui main container">
+            <h3>Sveriges bästa matsvampa</h3>
          <div className="ui stackable four column grid">
+       
           {projectsList}
      </div>
     </div>
